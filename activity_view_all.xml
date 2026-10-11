@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EAA67">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:src="@drawable/app_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="App Logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="Chrysanthemus Tea"
+                android:textColor="#F8D0DC"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:includeFontPadding="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="ALL COMICS"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#F5E9C6"
+            android:textSize="21sp"
+            android:shadowColor="#2D3A22"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="280dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
+                android:background="#2D3A22">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="#F5E9C6">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:src="@drawable/salad_days"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Comic 1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Salad Days"
+                        android:textColor="#2D3A22"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter 12"
+                        android:textColor="#D9506E"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="280dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
+                android:background="#2D3A22">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="#F5E9C6">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:src="@drawable/lookism"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Comic 2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Lookism"
+                        android:textColor="#2D3A22"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter 08"
+                        android:textColor="#D9506E"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

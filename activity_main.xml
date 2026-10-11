@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EAA67">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivAppLogo"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:src="@drawable/app_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="App Logo" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="Chrysanthemus Tea"
+                android:textColor="#F8D0DC"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:includeFontPadding="false" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="12dp"
+                android:text="LOGIN"
+                android:textColor="#2D3A22"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:backgroundTint="#F8D0DC"
+                app:cornerRadius="0dp"
+                app:strokeColor="#2D3A22"
+                app:strokeWidth="3dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:paddingStart="3dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="7dp"
+            android:paddingBottom="7dp"
+            android:background="#2D3A22">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:paddingEnd="16dp"
+                android:background="#F5E9C6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Search comics..."
+                    android:textColor="#7A7456"
+                    android:textSize="15sp"
+                    android:fontFamily="monospace" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/search_icon"
+                    android:scaleType="centerInside"
+                    android:contentDescription="Search" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⌂  HOME"
+                android:textColor="#F5E9C6"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="GENRE"
+                android:textColor="#F5E9C6"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="POPULAR"
+                android:textColor="#F5E9C6"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="NEW"
+                android:textColor="#F8D0DC"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="ABOUT"
+                android:textColor="#F5E9C6"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
+                android:background="#2D3A22">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:gravity="center"
+                    android:background="#84905C">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text=" WELCOME FUJOSHI "
+                        android:textColor="#F8D0DC"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace"
+                        android:shadowColor="#2D3A22"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Discover amazing comics here at Chrysanthemus Tea!"
+                        android:textColor="#F5E9C6"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:fontFamily="monospace" />
+
+                    <Button
+                        android:id="@+id/superButton"
+                        android:layout_width="160dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="Read Now"
+                        android:textColor="#2D3A22"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace"
+                        android:backgroundTint="#F8D0DC"
+                        app:cornerRadius="0dp"
+                        app:strokeColor="#2D3A22"
+                        app:strokeWidth="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="24dp"
+                android:padding="3dp"
+                android:background="#2D3A22">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="NEW QUEST"
+                    android:textColor="#2D3A22"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:background="#F8D0DC" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvTrending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp"
+            android:text="TRENDING COMICS"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#F5E9C6"
+            android:textSize="21sp"
+            android:shadowColor="#2D3A22"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="280dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
+                android:background="#2D3A22">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="#F5E9C6">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:src="@drawable/salad_days"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Comic 1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Salad Days"
+                        android:textColor="#2D3A22"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter 12"
+                        android:textColor="#D9506E"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="280dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
+                android:background="#2D3A22">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="#F5E9C6">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:src="@drawable/lookism"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Comic 2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Lookism"
+                        android:textColor="#2D3A22"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter 08"
+                        android:textColor="#D9506E"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnViewAll"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="View All Comics"
+            android:textColor="#2D3A22"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:backgroundTint="#F8D0DC"
+            app:cornerRadius="0dp"
+            app:strokeColor="#2D3A22"
+            app:strokeWidth="3dp" />
+
+    </LinearLayout>
+</ScrollView>

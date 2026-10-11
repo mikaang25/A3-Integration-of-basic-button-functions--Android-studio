@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9EAA67">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:src="@drawable/app_logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="App Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:text="Chrysanthemus Tea"
+            android:textColor="#F8D0DC"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:shadowColor="#2D3A22"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1"
+            android:includeFontPadding="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="30dp"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="7dp"
+        android:paddingBottom="7dp"
+        android:background="#2D3A22">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="#84905C">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="PLAYER 1 LOGIN"
+                android:textColor="#F8D0DC"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:shadowColor="#2D3A22"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:importantForAutofill="no"
+                android:textColor="#2D3A22"
+                android:textColorHint="#7A7456"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:background="#F5E9C6" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="14dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:importantForAutofill="no"
+                android:textColor="#2D3A22"
+                android:textColorHint="#7A7456"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:background="#F5E9C6" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
